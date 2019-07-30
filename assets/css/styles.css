@@ -27,7 +27,7 @@ strong {
   color: hsl(209, 23%, 60%);
 }
 .dark-blue {
-  color: hsl(215, 96%, 32%);
+  color: hsl(200, 96%, 32%);
 }
 .mt-40 {
   margin-top: 40px;
@@ -146,7 +146,7 @@ h6.rating a {
   border-top-left-radius: 10px;
 }
 
-h3.about-me {
+.h3.about-me {
   line-height: 1.5em;
 }
 
@@ -225,4 +225,22 @@ ul li::before {
   top: 4500px;
   left: 25px;
   height: 100px;
+}
+
+.attribution {
+  margin-bottom: 10px;
+}
+
+.attribution a {
+  display: inline-block;
+  width: 120px;
+  background-color: hsl(16, 94%, 61%);
+  border-radius: 4px;
+  padding: 10px 0;
+  /* height: 55px; */
+  margin-left: 5px;
+}
+
+.attribution a img {
+  vertical-align: bottom;
 }
