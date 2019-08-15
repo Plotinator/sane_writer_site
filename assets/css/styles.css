@@ -3,6 +3,7 @@ body {
   color: hsl(211, 39%, 23%);
   font-size: 18px;
   background-color: hsl(210, 36%, 96%);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23c8deee' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -59,6 +60,11 @@ strong {
 }
 .header img {
   padding: 15px 0px;
+}
+
+.header .header-small {
+  display: inline-block;
+  vertical-align: 140%;
 }
 
 .m-top-lg {
@@ -215,14 +221,14 @@ ul li::before {
 }
 
 .totem {
-  top: 4000px;
+  top: 3700px;
   right: 100px;
   height: 100px;
 }
 
 .emc {
   transform: rotate(-45deg);
-  top: 4500px;
+  top: 4600px;
   left: 25px;
   height: 100px;
 }
@@ -243,4 +249,9 @@ ul li::before {
 
 .attribution a img {
   vertical-align: bottom;
+}
+
+.word-cloud p {
+  margin: -7px;
+  font-size: 150%;
 }
