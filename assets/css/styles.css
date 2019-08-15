@@ -209,26 +209,26 @@ ul li::before {
 }
 
 .tiki {
-  top: 1800px;
+  top: 2200px;
   height: 200px;
   right: 100px;
 }
 
 .illuminati-owl {
-  top: 2800px;
+  top: 3200px;
   height: 500px;
   left: -75px;
 }
 
 .totem {
-  top: 3700px;
+  top: 4100px;
   right: 100px;
   height: 100px;
 }
 
 .emc {
   transform: rotate(-45deg);
-  top: 4600px;
+  top: 5100px;
   left: 25px;
   height: 100px;
 }
