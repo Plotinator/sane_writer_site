@@ -255,3 +255,7 @@ ul li::before {
   margin: -7px;
   font-size: 150%;
 }
+
+del {
+  color: hsl(360, 83%, 62%);
+}
