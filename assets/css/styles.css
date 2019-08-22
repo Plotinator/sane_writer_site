@@ -215,20 +215,20 @@ ul li::before {
 }
 
 .illuminati-owl {
-  top: 3200px;
+  top: 3425px;
   height: 500px;
   left: -75px;
 }
 
 .totem {
-  top: 4100px;
+  top: 4325px;
   right: 100px;
   height: 100px;
 }
 
 .emc {
   transform: rotate(-45deg);
-  top: 5100px;
+  top: 5450px;
   left: 25px;
   height: 100px;
 }
