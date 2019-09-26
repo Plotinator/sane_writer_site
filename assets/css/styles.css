@@ -44,6 +44,10 @@ strong {
   transform: rotate(10deg);
 }
 
+.smaller {
+  font-size: 75%;
+}
+
 /* #49a4f3 */
 
 .content {
