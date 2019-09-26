@@ -47,6 +47,9 @@ strong {
 .smaller {
   font-size: 75%;
 }
+.small {
+  font-size: 50%;
+}
 
 /* #49a4f3 */
 
@@ -66,9 +69,17 @@ strong {
   padding: 15px 0px;
 }
 
-.header .header-small {
+.header .header-small-txt {
   display: inline-block;
   vertical-align: 140%;
+}
+
+.header-sm {
+  display: none;
+  height: 75px;
+  top: 0;
+  background-color: hsl(210, 36%, 96%);
+  z-index: 1000;
 }
 
 .m-top-lg {
@@ -178,10 +189,6 @@ ul li::before {
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
-.small {
-  font-size: 50%;
-}
-
 .watermark {
   position: absolute;
   opacity: 0.1;
@@ -262,4 +269,69 @@ ul li::before {
 
 del {
   color: hsl(360, 83%, 62%);
+}
+
+
+@media (max-width: 680px) {
+  .content {
+    padding: 3px;  
+  }
+  .header {
+    display: none;
+  }
+  .header-sm {
+    display: block;
+  }
+
+  .watermark {
+    opacity: 0.05;
+  }
+
+  .horus {
+    top: 750px;
+    height: 50px;
+    left: 10px;
+  }
+  
+  .sdf {
+    top: 875px;
+    left: 160px;
+    height: 100px;
+  }
+  
+  .freemason {
+    top: 1300px;
+    left: 200px;
+    height: 150px;
+  }
+  
+  .illuminati {
+    top: 780px;
+    right: 20px;
+    height: 60px;
+  }
+  
+  .tiki {
+    top: 2450px;
+    height: 150px;
+    right: 250px;
+  }
+  
+  .illuminati-owl {
+    top: 3125px;
+    height: 450px;
+    left: -100px;
+  }
+  
+  .totem {
+    top: 4425px;
+    right: 100px;
+    height: 150px;
+  }
+  
+  .emc {
+    top: 9275px;
+    left: -25px;
+    height: 75px;
+  }
 }
